@@ -1,0 +1,53 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Moganesan-Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --hot --config webpack.dev.js --open",
+    "build": "webpack --config webpack.prod.js",
+    "lint": "eslint --fix --ext .js,.jsx ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moganesan/portfolio.git"
+  },
+  "keywords": [
+    "react",
+    "tailwind"
+  ],
+  "author": "Moganesan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Moganesan/portfolio/issues"
+  },
+  "homepage": "https://github.com/Moganesan/portfolio#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.0",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/preset-env": "^7.16.11",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.3",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-app": "^10.0.1",
+    "css-loader": "^6.6.0",
+    "eslint": "^7.32.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-react": "^7.28.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4",
+    "webpack-merge": "^5.8.0"
+  }
+}
